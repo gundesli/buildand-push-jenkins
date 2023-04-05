@@ -2,4 +2,4 @@ version: '3.8'
 
 services:
   web0:
-   image: nginx
+   image: registry.ludovic.tech/eray/app:3.8
