@@ -21,6 +21,7 @@ node {
        docker.withRegistry('https://registry.ludovic.tech' , 'harbor_id') {
               img.push 'latest'
               img.push()
+       //sh 'docker-compose up -d'
           }
     }
 
